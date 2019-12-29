@@ -1,4 +1,4 @@
-## restful calc
+## restful calculator
 
 > 简介
 
