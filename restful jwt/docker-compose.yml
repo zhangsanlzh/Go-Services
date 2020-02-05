@@ -1,0 +1,10 @@
+version: "3.0"
+
+services: 
+    nginx-web:
+        image: nginx
+        ports: 
+            - "80:80"
+        volumes:
+            - "./client/:/usr/share/nginx/html"
+        container_name: "nginx-web"
